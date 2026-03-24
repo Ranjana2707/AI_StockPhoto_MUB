@@ -1,0 +1,66 @@
+# Docker ignore patterns for frontend
+# Exclude unnecessary files from Docker build context
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build outputs (these will be built inside Docker)
+dist/
+build/
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*Test*
+*test*
+src/test/
+coverage/
+*.test.js
+*.spec.js
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node (handled by Docker build)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Vite cache
+.vite/
+.cache/
+.parcel-cache/
+
+# Source files - we copy these to allow Docker to build
+# But we exclude some unnecessary files
+# src/ - needed for build
+# public/ - if exists
+# package.json - needed for dependencies
+# vite.config.js - needed for build configuration
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Misc
+*.tmp
+*.bak
+*.swp

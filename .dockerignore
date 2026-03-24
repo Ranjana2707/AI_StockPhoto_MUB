@@ -1,0 +1,56 @@
+# Docker ignore patterns for SpringAIDemo
+# Exclude unnecessary files from Docker build context
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build outputs
+target/
+*.class
+*.jar
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*Test*.java
+*test*
+src/test/
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Docker files (except the ones we need in context)
+Dockerfile
+.dockerignore
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml
+
+# Environment files
+.env
+.env.local
+*.properties
+*.yml
+*.yaml
+
+# Node (handled by frontend build)
+node_modules/
