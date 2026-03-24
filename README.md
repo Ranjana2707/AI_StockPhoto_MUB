@@ -345,8 +345,7 @@ This project is for educational and demonstration purposes.
 **Ranjana Singh**  
 B.Tech CS Student
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat&logo=github&logoColor=white)](https://github.com/yourusername)
+[![LinkedIn](www.linkedin.com/in/ranjana-singh-09b88b346)
 
 ---
 
