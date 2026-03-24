@@ -246,17 +246,6 @@ GET http://localhost:8080/api/health
 
 ---
 
-## 📸 Screenshots
-
-> **Note:** Add your project screenshots here to showcase the application.
-
-| Feature | Screenshot |
-|---------|------------|
-| Welcome Screen | ![Welcome](screenshots/welcome.png) |
-| Chat Interface | ![Chat](screenshots/chat.png) |
-| API Documentation | ![API](screenshots/api.png) |
-
----
 
 ## 🏗️ Architecture Diagram
 
@@ -353,8 +342,8 @@ This project is for educational and demonstration purposes.
 
 ## 👨‍💻 Author
 
-**Your Name**  
-B.Tech CSE Student
+**Ranjana Singh**  
+B.Tech CS Student
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
 [![GitHub](https://img.shields.io/badge/GitHub-333333?style=flat&logo=github&logoColor=white)](https://github.com/yourusername)
